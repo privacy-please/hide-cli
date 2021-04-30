@@ -1,0 +1,29 @@
+{
+  "name": "hide-cli",
+  "version": "1.0.0",
+  "description": "A simple cli tool that will deeply rename everything in a target directory to obscure its contents.",
+  "repository": "https://github.com/privacy-please/hide-cli.git",
+  "main": "index.js",
+  "keywords": [
+    "hide",
+    "cli",
+    "obscure",
+    "privacy",
+    "command",
+    "line",
+    "encode",
+    "decode"
+  ],
+  "scripts": {
+    "test": "node index.js ./demo"
+  },
+  "author": "Privacy Please <privacy-please-dev@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "uuid": "^8.3.2"
+  },
+  "bin": {
+    "hide": "./index.js"
+  }
+}
