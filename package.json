@@ -1,6 +1,6 @@
 {
   "name": "hide-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple cli tool that will deeply rename everything in a target directory to obscure its contents.",
   "repository": "https://github.com/privacy-please/hide-cli.git",
   "main": "index.js",
